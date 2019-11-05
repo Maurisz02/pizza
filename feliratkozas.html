@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Varázs pizza</title>
+  	<link rel="icon" href="logo.png">
+
+
+    <link rel="stylesheet" type="text/css" href="feliratkozas.css">
+  </head>
+  <body>
+
+    <div id="iratkozz">
+      <h5 id="kosz">Köszönjük, hogy feliratkoztál az oldalunkra!</h5>
+      <a href="sima.html"> <button id="vissza" type="button" name="back">Vissza a főöldalra</button> </a>
+    </div>
+
+    <center>
+  <a href="sima.html"><img src="logo.png" title="Logo" alt="logo"></a>
+    </center>
+
+
+    <center>
+    <button id="felirat" type="button" name="button">Feliratkozás</button>
+    </center>
+
+
+<div id="hir">
+  <p id="targy">Tárgy:</p> <select id="lev" class="" name="">
+    <option value="">Rendelés</option>
+    <option value="">Egyéb</option>
+  </select>
+  <br/>
+
+  <p id="email">E-mail:</p>
+  <input id="emailes" type="text" name="" value="">
+  <br/>
+
+  <p id="üzen">Üzenet:</p>
+<!--  <input id="content" type="text" name="" value=""> -->
+<textarea name="name" rows="10" cols="60"></textarea>
+</br>
+  <button id="kuld" type="button" class="btn btn-primary" name="button">Küldés</button>
+</div>
+
+
+
+<script type="text/javascript">
+document.getElementById('iratkozz').style.visibility="hidden";
+
+var felirat = document.getElementById('felirat');
+  felirat.addEventListener('click',ablak);
+    function ablak(){
+      document.getElementById('iratkozz').style.visibility="visible";
+    }
+
+    var ujLap = document.getElementById('kuld');
+  ujLap.addEventListener('click',restart);
+
+    function restart(){
+    //  if (document.getElementById('emailes').value == "") {
+      //  alert(Hiányzik az email);
+    //  }
+      location.reload();//itt tölti újra az oldalt
+    }
+</script>
+  </body>
+</html>

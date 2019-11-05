@@ -1,0 +1,105 @@
+body{
+	background-color: #ffb74c;
+}
+
+#iratkozz{
+	display: block;
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	background-color: grey;
+	margin: 5% 0px 0px 34%;
+	border-radius: 30px;
+	background: rgba(265, 265, 265, .5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  font-size: 50px;
+}
+
+#kosz{
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+#felirat{
+  font-size: 60px;
+  margin-top: 30px;
+  background: rgba(255, 51, 51);
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+#vissza{
+  font-size: 40px;
+  border: none;
+  float: right;
+  margin-top: -20px;
+  border-radius: 15px;
+  background: rgba(265, 265, 265, .5);
+}
+
+#hir{
+	display: block;
+	margin: auto;
+	width: 800px;
+	height: 400px;
+	background: rgba(265, 265, 265, .5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+#lev{
+	font-size: 20px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 500px;
+}
+
+#targy{
+	font-size: 20px;
+	float: left;
+	margin-left: 100px;
+}
+
+#email{
+	font-size: 20px;
+	float: left;
+	margin-left: -50px;
+	margin-top: 70px;
+}
+
+input{
+	font-size: 20px;
+	float: right;
+	margin-top: 41px;
+	margin-right: 362px;
+}
+
+#üzen{
+	float: left;
+	font-size: 20px;
+	margin-left: -60px;
+	margin-top: 103px;
+}
+
+#content{
+	font-size: 20px;
+	width: 200px;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 303px;
+	padding-right: 100px;
+}
+
+textarea{
+	margin-top: 39px;
+	margin-left: 25px;
+}
+
+#kuld{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 350px;
+
+}

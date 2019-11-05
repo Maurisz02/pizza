@@ -1,0 +1,138 @@
+
+nav{
+	background-color: #f97725;
+}
+
+.nav-link{
+	font-size: 40px;
+	color: black;
+	margin-left: 60px;
+}
+
+.nav-link:hover{
+	color: white;
+}
+
+.active{
+ 	 color: white;
+}
+
+#icon{
+	opacity: 1;
+	display:block;
+
+}
+
+#n{
+	opacity: 0;
+}
+
+#cim{
+	display: block;
+	margin-top: 40px;
+	text-align: center;
+
+}
+
+h1{
+
+	font-size: 60px;
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
+
+div.card{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+body{
+	background-color: #ffb74c;
+}
+
+#logo{
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#content{
+	text-align: center;
+	margin-top: 20px;
+}
+
+table, th, td{
+	border-width:5px;
+  border-style:groove;
+	border-color: black;
+	border-collapse: collapse;
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+th{
+	text-align: center;
+}
+
+.ido{
+ 	text-align: right;
+}
+
+iframe{
+	margin-top: 30px;
+}
+
+#kapcsolat{
+	text-align: center;
+	margin-top: 30px;
+}
+
+#bb{
+	background-color: fff;
+}
+
+#alert{
+	display: block;
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	background-color: grey;
+	margin: 40px 0px 0px 34%;
+	border-radius: 30px;
+	background: rgba(265, 265, 265, .5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+h5{
+	text-align: center;
+	font-size: 40px;
+}
+
+#megse{
+	margin-top: 30px;
+	margin-right: 60px;
+	font-size: 30px;
+	border-radius: 15px;
+	background: rgba(265, 265, 265, .5);
+
+}
+
+#fel{
+	margin-top: 30px;
+	font-size: 30px;
+	border-radius: 15px;
+	background: rgba(265, 265, 265, .5);
+}
+
+#ar{
+	font-size: 20px;
+}
+
+//*#n{
+	display: block;
+	margin: auto;
+	background-color: grey;
+	width: 400px;
+	text-align:center;
+}

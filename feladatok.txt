@@ -1,0 +1,25 @@
+	Még kell egy felugró ablak az elején
+
+	HA a rendelés gombra kattint akkor kosar proba ha nem sikerül akkor csak feldob egy ablakot ahol az adatokat kéri és ennyi
+
+	kapcsolatok fül megcsinálása
+
+	föoldal táblázatok
+
+	képek beszúrása üres helyekre
+
+	közös js megcsinálása vagy az h az ajanló tünjön el számlálos modszer
+
+fuves rikardo megcsinalasa és hoover
+
+  rendeles
+
+  kiegészítõk
+
+ajánlás középen tartása ha kisebbül a kép
+
+egyéb díszitõ elemek hogy ne legyen üres az oldal
+
+Az adott pizza képe berakasa a buymodal ba
+
+köszönõ ablak hogy tõlünk rendelt
